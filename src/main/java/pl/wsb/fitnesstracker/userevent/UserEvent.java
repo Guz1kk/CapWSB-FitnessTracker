@@ -10,6 +10,7 @@ import jakarta.persistence.*;
 
 
 public class UserEvent {
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     private Long Id;
 
