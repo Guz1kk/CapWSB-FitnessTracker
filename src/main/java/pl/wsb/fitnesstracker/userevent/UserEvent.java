@@ -22,6 +22,7 @@ public class UserEvent {
     @JoinColumn(name = "event_id", nullable = false)
     private Event event;
 
+
     @Column(name = "status")
     private String status;
 }
